@@ -16,8 +16,11 @@
 * Use system calls only when you need to (why?)
 ***Usage***
 #### In order to run this program,
+
 ``git clone https://github.com/Susiniosgit/simple_shell``
+
 #### compile it with
+
 ``gcc 4.8.4 -Wall -Werror -Wextra -pedantic *.c -o hsh.``
 **How to use it**
 #### In order to use this shell, in a terminal, first run the program:
