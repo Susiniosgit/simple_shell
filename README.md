@@ -58,7 +58,9 @@ Basicly Every Program in $PATH It Support Single Word like ls
 /home/username/
 - $ ^D
 - Username@your-regular-prompt:~$
-**Example 2**
+
+## Example 2
+
 - Username@your-regular-prompt:~$ ./hsh
 - $ ls -l /tmp 
 - -rw------- 1 username username    0 Dec  5 12:09 config-err-aAMZrR
