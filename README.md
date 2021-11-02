@@ -22,7 +22,8 @@
 #### compile it with
 
 ``gcc 4.8.4 -Wall -Werror -Wextra -pedantic *.c -o hsh.``
-**How to use it**
+
+### How to use it
 #### In order to use this shell, in a terminal, first run the program:
 ``prompt$ ./hsh``
 #### It wil then display a simple prompt and wait for commands.
