@@ -1,7 +1,9 @@
 #include "shell.h"
+
 /**
   *fun_cd - change the directory
   *@_args:arguments with the information of location
+  *
   *Return: Always 1
   */
 int fun_cd(char **_args)
@@ -13,6 +15,7 @@ int fun_cd(char **_args)
 /**
   *fun_pwd - prints the current directory
   *@_args:arguments with the information of location
+  *
   *Return: Always 1
   */
 int fun_pwd(char **_args)
@@ -24,8 +27,8 @@ int fun_pwd(char **_args)
 /**
   *fun_exit - exit the terminal
   *@_args:arguments with the information of location
-  *Return: Always 0 or 1
   *
+  *Return: Always 0 or 1
   */
 int fun_exit(char **_args)
 {
@@ -42,6 +45,7 @@ int fun_exit(char **_args)
 /**
   *fun_envi - prints the enviromental variable
   *@env:enviromental valiable
+  *
   *Return: Always 1
   */
 int fun_envi(char **env)
