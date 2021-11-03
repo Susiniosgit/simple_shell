@@ -5,7 +5,8 @@
   * @_com: the command to search in the PATH
   * @env: an array of arrays containing the path
   * @no_path: counts the number of elements inside PATH variable
-  * Return: a string containing the path or NULL
+  *
+  * Return: A string containing the path or NULL
   */
 char *func_env(char *_com, char **env, int *no_path)
 {
@@ -54,7 +55,8 @@ char *func_env(char *_com, char **env, int *no_path)
 /**
  *_strdup - creates a copy of a given array
  *@str: array to be copied
- *Return:a pointer to the array
+ *
+ *Return:A pointer to the array
  */
 char *_strdup(char *str)
 {
@@ -84,7 +86,8 @@ char *_strdup(char *str)
  *str_concat - Concatenate two strings
  *@s1: First string
  *@s2: Second string
- *Return:a pointer to the concatenated array
+ *
+ *Return:A pointer to the concatenated array
  */
 char *str_concat(char *s1, char *s2)
 {
