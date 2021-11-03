@@ -94,11 +94,11 @@ Basicly Every Program in $PATH It Support Single Word like ls
 
 - Username@your-regular-prompt:~$ ./hsh
 - $ ls -l /tmp 
-- -rw------- 1 username username    0 Dec  5 12:09 config-err-aAMZrR
-- drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-colord.service-V7DUzr
-- drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-rtkit-daemon.service-ANGvoV
-- drwx------ 3 root   root   4096 Dec  5 12:07 systemd-private-062a0eca7f2a44349733e78cb4abdff4-systemd-timesyncd.service-CdXUtH
-- -rw-rw-r-- 1 username username    0 Dec  5 12:09 unity_support_test.0
+- -rw------- 1 username username    0 Nov  1 12:09 config-err-aAMZrR
+- drwx------ 3 root   root   4096 Nov  1 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-colord.service-V7DUzr
+- drwx------ 3 root   root   4096 Nov  1 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-rtkit-daemon.service-ANGvoV
+- drwx------ 3 root   root   4096 Nov  1 12:07 systemd-private-062a0eca7f2a44349733e78cb4abdff4-systemd-timesyncd.service-CdXUtH
+- -rw-rw-r-- 1 username username    0 Nov  1 12:09 unity_support_test.0
 - $ ^D
 ``Username@your-regular-prompt:~$``
 
