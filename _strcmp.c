@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- *_strcmp - evaluate is the char is less , equal or higher thatn other string
- *@s1: destination string
+ *_strcmp - Evaluate is the char is less , equal or higher thatn other string
+ *@s1: Destination string
  *@s2: Origin string
- *Return: char string
+ *
+ *Return: Char string
  */
-
 int _strcmp(char *s1, char *s2)
 {
 	int i, j, a, b;
