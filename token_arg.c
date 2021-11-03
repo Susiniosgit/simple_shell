@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- *token_arg - tokenization of command line string
- *@_str: string created with input from command line
- *Return: arguments, pointer of a pointer
+ *token_arg - Tokenization of command line string
+ *@_str: String created with input from command line
+ *
+ *Return: Arguments, pointer of a pointer
  */
-
 char **token_arg(char *_str)
 {
 	int i = 0, numCom = 0;
