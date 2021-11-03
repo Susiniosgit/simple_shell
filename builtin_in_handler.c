@@ -1,8 +1,10 @@
 #include "shell.h"
+
 /**
   * built_in_handler - it chooses the correct function depending on the input
   * @_args: the array with inputs
   * @env: environmental variable
+  *
   * Return: the result of calling the function of the struct
   */
 int built_in_handler(char **_args, char **env)
