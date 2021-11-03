@@ -6,6 +6,7 @@
  * @i: integer
  * @toPrint: list to print.
  * @pun: pointer to len in _printf;
+ *
  * Return: inreger 1 or 2 or 0.
  */
 int funper(const char *format, int i, va_list toPrint, int *pun)
