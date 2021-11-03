@@ -1,10 +1,11 @@
 #include "shell.h"
+
 /**
-  * print_Number - prints a decimal and integer
-  * @n: number to be printed
-  * @p: pointer to determine length
-  * Return: number of digits of n
+  * print_Number - Prints a decimal and integer
+  * @n: Number to be printed
+  * @p: Pointer to determine length
   *
+  * Return: Number of digits of n
   */
 int print_Number(int n, int *p)
 {
