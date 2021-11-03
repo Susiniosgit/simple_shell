@@ -1,4 +1,4 @@
-#include"shell.h"
+#include "shell.h"
 
 /**
  *exec_fun - function to decide the execution based on arguments
@@ -6,9 +6,9 @@
  *@av: argument to print the name of the shell
  *@env: eviroment variable
  *@cicles: number of times a new command is pressed
+ *
  *Return: 1 or 0 integer
  */
-
 int exec_fun(int *cicles, char  **_args, char **av, char **env)
 {
 	int i;
