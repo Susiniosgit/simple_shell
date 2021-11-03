@@ -2,6 +2,7 @@
 
 /**
 * _getline - Read The Input By User From Stdin
+*
 * Return: Input
 */
 char *_getline()
@@ -47,8 +48,9 @@ char *buff = malloc(buffsize);
 
 /**
  * hashtag_handle - remove everything after #
- * @buff: input;
- * Return:void
+ * @buff: input
+ *
+ * Return: Void
  */
 void hashtag_handle(char *buff)
 {
