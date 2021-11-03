@@ -47,7 +47,7 @@ char *buff = malloc(buffsize);
 }
 
 /**
- * hashtag_handle - remove everything after #
+ * hashtag_handle - remove everything after
  * @buff: input
  *
  * Return: Void
