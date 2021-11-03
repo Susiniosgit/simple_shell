@@ -5,6 +5,7 @@
   * @p: pointer to len in _printf;
   * @va: this is a varg argument
   *
+  *Return: Void
   */
 void printChar(va_list va, int *p)
 {
@@ -18,6 +19,7 @@ void printChar(va_list va, int *p)
   * @p: pointer to len in _printf;
   * @va: varg argument
   *
+  *Return: Void
   */
 void printString(va_list va, int *p)
 {
@@ -48,6 +50,7 @@ void printString(va_list va, int *p)
  * @p: pointer to len in _printf;
  * @va: varg argument
  *
+ *Return: Void
  */
 void printInt(va_list va, int *p)
 {
@@ -58,14 +61,12 @@ void printInt(va_list va, int *p)
 	p += r;
 }
 
-
-
-
 /**
  * printDec - function that prints a decimal number
  * @p: pointer to len in _printf;
  * @va: argument
  *
+ *Return: Void
  */
 void printDec(va_list va, int *p)
 {
