@@ -40,7 +40,7 @@ A simple UNIX command interpreter written as part of the low-level programming a
    - ```read``` (man 2 read)
    - ```readdir``` (man 3 readdir)
    - ```signal``` (man 2 signal)
-   - ```stat`` (__xstat) (man 2 stat)
+   - ```stat``` (__xstat) (man 2 stat)
    - ```lstat``` (__lxstat) (man 2 lstat)
    - ```fstat``` (__fxstat) (man 2 fstat)
    - ```strtok``` (man 3 strtok)
@@ -106,5 +106,5 @@ Basicly Every Program in $PATH It Support Single Word like ls
 ```Username@your-regular-prompt:~$ man ./man_1_simple_shell```
 
 # AUTHORS
-1. Derbew Felasman 
-2. Susinios Legesse
+1. [Derbew Felasman](https://github.com/der-bew) 
+2. [Susinios Legesse](https://github.com/Susiniosgit)
