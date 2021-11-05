@@ -1,36 +1,36 @@
 .\" Manpage for Simple Shell.
-.TH "MINILIK Simple Shell" 1 "22 October 2021" "1.0" "MINILIK Simple Shell man page"
+.TH "Simple Shell project for alx software engineering program" 1 "22 October 2021" "1.0" "Simple Shell man page"
 
 .SH NAME
-hsh - Minilik Simple Shell
+hsh - Simple Shell
 
 .SH SYNOPSIS
 hsh (does not support arguments)
 
 .SH DESCRIPTION
-Welcome to the Minilik Simple Shell project! This program is a simple shell that can be compiled and launched from the command line within any number of Linux versions.
+Welcome to the hsh Simple Shell project! This program is a simple shell that can be compiled and launched from the command line within any number of Linux versions.
 
 .SH OVERVIEW
-The Minilik Simple Shell project is a major team project conducted by Derbew Felasman and Susinios, students at Alx software engineering program.
+The hsh Simple Shell project is a major team project conducted by Derbew Felasman and Susinios Legesse, students at Alx software engineering program.
 
 .SH RETURN VALUE
 The shell returns the error code given by the last completed command followed by either ctrl-d or exit with no status code.
 
 .SH SYNTAX
-MINILIK$ <command> <flags or options> <argument 1> <argument 2> ...
+$ <command> <flags or options> <argument 1> <argument 2> ...
 
 $ <command> | ./hsh
 .SS
 
 .SS
 EXAMPLE 1:
-MINILIK$ /bin/ls
+$ /bin/ls
 .SS
 EXAMPLE 2:
-MINILIK$ ls -l
+$ ls -l
 .SS
 EXAMPLE 3:
-MINILIK$ cat textfile
+$ cat textfile
 .SS
 
 

@@ -1,7 +1,8 @@
 #include "shell.h"
+
 /**
-  * _printf - it prints chars and a string
-  * @format: char with string formats to be printed
+  * _printf - It prints chars and a string
+  * @format: Char with string formats to be printed
   *
   * Return: -1 when error or the count of chars
   */

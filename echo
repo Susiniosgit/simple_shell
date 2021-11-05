@@ -1,4 +1,5 @@
 echo: echo [-neE] [arg ...]
+
     Write arguments to the standard output.
 
     Display the ARGs, separated by a single space character and followed by a
@@ -29,6 +30,7 @@ echo: echo [-neE] [arg ...]
                 HHHH can be one to four hex digits.
       \UHHHHHHHH the Unicode character whose value is the hexadecimal value
                 HHHHHHHH. HHHHHHHH can be one to eight hex digits.
+		
 
     Exit Status:
     Returns success unless a write error occurs.

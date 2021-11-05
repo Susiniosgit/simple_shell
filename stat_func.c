@@ -1,13 +1,14 @@
 #include "shell.h"
 
 /**
- *stat_fun - evaluates initial condition of arguments
- *@_str: pointer of pointer to evaluate
- *@_fl: flag to control pointer free
- *@_com: command in the shell
- *@env:environ variable
- *@c: count the cicles
- *@av_0:first main argument
+ *stat_fun - Evaluates initial condition of arguments
+ *@_str: Pointer of pointer to evaluate
+ *@_fl: Flag to control pointer free
+ *@_com: Command in the shell
+ *@env: Environ variable
+ *@c: Count the cicles
+ *@av_0: First main argument
+ *
  *Return: Integer 1 or 0
  */
 

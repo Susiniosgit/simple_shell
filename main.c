@@ -1,9 +1,11 @@
 #include "shell.h"
+
 /**
  *main - function to control the shell process
  *@ac:main argument, number of arguments
  *@av:main argument, array of arguments
  *@env:main argument, environmental variable
+ *
  *Return: 0 on success
  */
 
@@ -47,9 +49,11 @@ int main(int ac, char **av, char **env)
 	ac = ac;
 	return (0);
 }
+
 /**
   *fun_count - counts the letter in a string
   *@s:string to be evaluated
+  *
   *Return: number of letters
   */
 int fun_count(char *s)

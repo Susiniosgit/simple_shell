@@ -1,5 +1,7 @@
-#ifndef SHELL_H
-#define SHELL_H
+#ifndef _SHELL_H_
+#define _SHELL_H_
+
+
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,6 +25,7 @@ typedef struct tpesPer
 	char t;
 	void (*f)(va_list, int *);
 } tpPer;
+
 /**
  *struct bu_in - structure to reference the right built in function
  *@s: string to be evaluated
@@ -33,6 +36,7 @@ typedef struct bu_in
 	char *s;
 	int (*fun)(char **);
 } tpe_bui;
+
 typedef void (*sighandler_t)(int);
 char *get_string(int *i);
 char **token_arg(char *_str);
@@ -60,4 +64,8 @@ int _strcmp(char *s1, char *s2);
 int stat_fun(char **_str, int *_fl, char *_com, int c, char *av_0, char **env);
 char *_getline();
 void hashtag_handle(char *buff);
+<<<<<<< HEAD
 #endif
+=======
+#endif /*_SHELL_H_*/
+>>>>>>> b61e602f0c0d2e6d91f6911058f2b264b2fdebc3
