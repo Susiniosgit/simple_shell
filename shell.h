@@ -64,8 +64,7 @@ int _strcmp(char *s1, char *s2);
 int stat_fun(char **_str, int *_fl, char *_com, int c, char *av_0, char **env);
 char *_getline();
 void hashtag_handle(char *buff);
-<<<<<<< HEAD
-#endif
-=======
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+void assign_lineptr(char **lineptr, size_t *n, char *buffer, size_t b);
+ssize_t _getline(char **lineptr, size_t *n, FILE *stream);
 #endif /*_SHELL_H_*/
->>>>>>> b61e602f0c0d2e6d91f6911058f2b264b2fdebc3
